@@ -228,6 +228,7 @@ st.sidebar.caption(f"Showing **{len(fdf)}** of {len(df)} congregants after filte
 # --------------------------------------------------------------------------
 # HEADER
 # --------------------------------------------------------------------------
+st.image("church.webp", width=100)
 st.title("⛪ St. George's – Church Analytics Dashboard.")
 st.caption("Membership, sacraments, engagement, stewardship and retention — at a glance.")
 
