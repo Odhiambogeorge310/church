@@ -179,7 +179,7 @@ def kpi_card(col, label, value, delta=None, help_text=None):
 # --------------------------------------------------------------------------
 # SIDEBAR: DATA SOURCE + FILTERS
 # --------------------------------------------------------------------------
-st.sidebar.title("⛪ Church Analytics")
+st.sidebar.title("⛪ ST JOHN XXIII")
 st.sidebar.caption("Upload your membership register or explore with sample data.")
 
 uploaded = st.sidebar.file_uploader("Upload Excel register (.xlsx)", type=["xlsx", "xls"])
