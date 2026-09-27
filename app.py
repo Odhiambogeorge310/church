@@ -228,7 +228,7 @@ st.sidebar.caption(f"Showing **{len(fdf)}** of {len(df)} congregants after filte
 # --------------------------------------------------------------------------
 # HEADER
 # --------------------------------------------------------------------------
-st.title("⛪ St. George's – Church Analytics Dashboard")
+st.title("⛪ St. George's – Church Analytics Dashboard.")
 st.caption("Membership, sacraments, engagement, stewardship and retention — at a glance.")
 
 tabs = st.tabs([
