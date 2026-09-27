@@ -11,7 +11,7 @@ import streamlit as st
 # PAGE CONFIG
 # --------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Church Analytics Dashboard",
+    page_title="MOTHER OF APOSTLE SEMINARY, ELDORET",
     page_icon="⛪",
     layout="wide",
     initial_sidebar_state="expanded",
