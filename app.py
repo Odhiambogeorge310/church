@@ -11,7 +11,7 @@ import streamlit as st
 # PAGE CONFIG
 # --------------------------------------------------------------------------
 st.set_page_config(
-    page_title="MOTHER OF APOSTLE SEMINARY, ELDORET",
+    page_title="St. George's – Church Analytics Dashboard",
     page_icon="⛪",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -179,7 +179,7 @@ def kpi_card(col, label, value, delta=None, help_text=None):
 # --------------------------------------------------------------------------
 # SIDEBAR: DATA SOURCE + FILTERS
 # --------------------------------------------------------------------------
-st.sidebar.title("⛪ ST JOHN XXIII-Church Analytics Dashboard")
+st.sidebar.title("⛪ St. George's – Church Analytics Dashboard")
 st.sidebar.caption("Upload your membership register or explore with sample data.")
 
 uploaded = st.sidebar.file_uploader("Upload Excel register (.xlsx)", type=["xlsx", "xls"])
@@ -228,7 +228,7 @@ st.sidebar.caption(f"Showing **{len(fdf)}** of {len(df)} congregants after filte
 # --------------------------------------------------------------------------
 # HEADER
 # --------------------------------------------------------------------------
-st.title("⛪ Church Analytics Dashboard")
+st.title("⛪ St. George's – Church Analytics Dashboard")
 st.caption("Membership, sacraments, engagement, stewardship and retention — at a glance.")
 
 tabs = st.tabs([
