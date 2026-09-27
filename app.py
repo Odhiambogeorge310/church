@@ -546,4 +546,4 @@ with tabs[5]:
     st.download_button("⬇️ Download filtered data as CSV", csv, "filtered_congregants.csv", "text/csv")
 
 st.markdown("---")
-st.caption(f"Dashboard generated {datetime.now().strftime('%d %b %Y, %H:%M')} · Built with Streamlit & Plotly")
+st.caption(f"Dashboard generated {datetime.now().strftime('%d %b %Y, %H:%M')} · By George Odhiambo.")
