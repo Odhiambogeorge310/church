@@ -150,9 +150,9 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
         if pd.isna(a):
             return "Unknown"
         if a < 8:
-            return "Children (0-7)"
+            return "PMC (0-7)"
         if a < 13:
-            return "Pre-teen (8-12)"
+            return "MYM (8-12)"
         if a < 18:
             return "Youth (13-17)"
         if a < 35:
