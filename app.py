@@ -149,17 +149,17 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     def age_band(a):
         if pd.isna(a):
             return "Unknown"
-        if a < 8:
-            return "PMC (0-7)"
         if a < 13:
-            return "MYM (8-12)"
+            return "PMC (0-14)"
         if a < 18:
-            return "YSC (13-17)"
+            return "MYM (14-18)"
+        if a < 24:
+            return "YSC (1-17)"
         if a < 35:
             return "YCA (18-34)"
-        if a < 60:
+        if a < 100:
             return "CMA/CWA (35-59)"
-        return "Senior (60+)"
+        #return "Senior (60+)"
 
     df["Age_Band"] = df["Age"].apply(age_band)
     return df
