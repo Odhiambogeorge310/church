@@ -154,11 +154,11 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
         if a < 13:
             return "MYM (8-12)"
         if a < 18:
-            return "Youth (13-17)"
+            return "YSC (13-17)"
         if a < 35:
-            return "Young Adult (18-34)"
+            return "YCA (18-34)"
         if a < 60:
-            return "Adult (35-59)"
+            return "CMA/CWA (35-59)"
         return "Senior (60+)"
 
     df["Age_Band"] = df["Age"].apply(age_band)
