@@ -158,7 +158,7 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
         if a < 35:
             return "YCA (18-34)"
         if a < 100:
-            return "CMA/CWA (35-59)"
+            return "CMA/CWA (35-100)"
         #return "Senior (60+)"
 
     df["Age_Band"] = df["Age"].apply(age_band)
